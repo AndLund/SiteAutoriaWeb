@@ -1,118 +1,128 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1" />
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/grid.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/clientes.css" />
+		<link rel="stylesheet" href="css/responsivo.css" />
+		<link
+			rel="stylesheet"
+			href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+		/>
+		<title>ChemCode - Clientes</title>
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/grid.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/clientes.css">
-  <link rel="stylesheet" href="css/responsivo.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <title>ChemCode - Clientes</title>
-</head>
+	<body>
+		<!-- NAVEGAÇÃO -->
+		<header class="header">
+			<div class="container">
+				<a href="index.html" class="grid-4">
+					<img src="./img/icones/logo.png" />
+				</a>
+				<nav class="grid-12 header_menu">
+					<ul>
+						<li><a href="sobre.html">Sobre</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="clientes.html" class="menu_ativo">Clientes</a></li>
+						<li><a href="contato.html">Fale Conosco</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<!-- SEÇÃO DE INTRODUÇÃO - SOBRE -->
+		<section class="introducao-interna interna_clientes">
+			<div class="container">
+				<h1>Clientes</h1>
+				<p>Conheça os nossos principais clientes</p>
+			</div>
+		</section>
+		<!-- SEÇÃO DE SLIDE-SHOW -->
+		<div class="">
+			<div class="container">
+				<div id="carousel slides" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carousel" data-slide-to="0" class="active"></li>
+						<li data-target="#carousel" data-slide-to="1"></li>
+						<li data-target="#carousel" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner" role="listbox">
+						<div class="item active">
+							<img src="img/clientes/PEUGEOT.jpg" />
+							<div class="carousel-caption">
+								Renault
+							</div>
+						</div>
 
-<body>
-  <!-- NAVEGAÇÃO -->
-  <header class="header">
-    <div class="container">
-      <a href="index.html" class="grid-4">
-        <img src="./img/icones/logo.png">
-      </a>
-      <nav class="grid-12 header_menu">
-        <ul>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="produtos.html">Produtos</a></li>
-          <li><a href="clientes.html" class="menu_ativo">Clientes</a></li>
-          <li><a href="contato.html">Fale Conosco</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <!-- SEÇÃO DE INTRODUÇÃO - SOBRE -->
-  <section class="introducao-interna interna_clientes">
-    <div class="container">
-      <h1>Clientes</h1>
-      <p>Conheça os nossos principais clientes</p>
-    </div>
-  </section>
-  <!-- SEÇÃO DE SLIDE-SHOW -->
-  <div class="">
-    <div class="container">
-      <div id="carousel slides" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#carousel" data-slide-to="1"></li>
-          <li data-target="#carousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img src="img/clientes/PEUGEOT.jpg">
-            <div class="carousel-caption">
-              Renault
-            </div>
-          </div>
+						<div class="item">
+							<img src="img/clientes/petrobras.jpg" />
+							<div class="carousel-caption">
+								Petrobrás
+							</div>
+						</div>
 
-          <div class="item">
-            <img src="img/clientes/petrobras.jpg">
-            <div class="carousel-caption">
-              Petrobrás
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="img/clientes/clientes-img.jpg">
-            <div class="carousel-caption">
-              Seja nosso parceiro!
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- FOOTER -->
-  <footer>
-    <div class="footer">
-      <div class="container">
-        <div class="grid-8 footer_contato">
-          <h3>Contato</h3>
-          <ul>
-            <li>- 84 9999-8888</li>
-            <li>- contato@chemcode.com.br</li>
-            <li>- Macaíba/RN</li>
-          </ul>
-        </div>
-        <div class="grid-8 footer_redes">
-          <h3>Redes Sociasis</h3>
-          <ul>
-            <li><a href="http://facebook.com" target="_blank"><img src="img/icones/facebook.png" alt="Facebook"></a>
-            </li>
-            <li><a href="http://instagram.com" target="_blank"><img src="img/icones/instagram.png" alt="Instagram"></a>
-            </li>
-            <li><a href="http://twitter.com" target="_blank"><img src="img/icones/twitter.png" alt="Twitter"></a></li>
-
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="copy">
-      <div class="container">
-        <div class="grid-11">
-          <p>TADS - UFRN/EAJ - Todos os direitos reservados.</p>
-        </div>
-        <div class="grid-5">
-          <p>Developed by Andeson Lundberg de Holanda</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-</body>
-
+						<div class="item">
+							<img src="img/clientes/clientes-img.jpg" />
+							<div class="carousel-caption">
+								Seja nosso parceiro!
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- FOOTER -->
+		<footer>
+			<div class="footer">
+				<div class="container">
+					<div class="grid-8 footer_contato">
+						<h3>Contato</h3>
+						<ul>
+							<li>- 84 9999-8888</li>
+							<li>- contato@chemcode.com.br</li>
+							<li>- Macaíba/RN</li>
+						</ul>
+					</div>
+					<div class="grid-8 footer_redes">
+						<h3>Redes Sociasis</h3>
+						<ul>
+							<li>
+								<a href="http://facebook.com" target="_blank"
+									><img src="img/icones/facebook.png" alt="Facebook"
+								/></a>
+							</li>
+							<li>
+								<a href="http://instagram.com" target="_blank"
+									><img src="img/icones/instagram.png" alt="Instagram"
+								/></a>
+							</li>
+							<li>
+								<a href="http://twitter.com" target="_blank"
+									><img src="img/icones/twitter.png" alt="Twitter"
+								/></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="copy">
+				<div class="container">
+					<div class="grid-11">
+						<p>TADS - UFRN/EAJ - Todos os direitos reservados.</p>
+					</div>
+					<div class="grid-5">
+						<p>Developed by Andeson Lundberg de Holanda</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	</body>
 </html>
