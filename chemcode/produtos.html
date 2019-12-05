@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/produtos.css">
+  <link rel="stylesheet" href="css/responsivo.css">
+  <title>ChemCode - Produtos</title>
+</head>
+
+<body>
+  <!-- NAVEGAÇÃO -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4">
+        <img src="./img/icones/logo.png">
+      </a>
+      <nav class="grid-12 header_menu">
+        <ul>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="produtos.html" class="menu_ativo">Produtos</a></li>
+          <li><a href="clientes.html">Clientes</a></li>
+          <li><a href="contato.html">Fale Conosco</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- SEÇÃO DE INTRODUÇÃO - SOBRE -->
+  <section class="introducao-interna interna_produtos">
+    <div class="container">
+      <h1>Produtos</h1>
+      <p>Conheça todos os nossos produtos</p>
+    </div>
+  </section>
+  <!-- RESIDENCIAL -->
+  <section class="container produto_item">
+    <div class="grid-11">
+      <img src="img/produtos/produtos-residencial1.jpg" alt="Residencial 01">
+      <h2>Residencial</h2>
+    </div>
+    <div class="grid-5"><img src="img/produtos/produtos-residencial2.jpg" alt="Residencial 02"></div>
+    <div class="grid-8"><img src="img/produtos/produtos-residencial3.jpg" alt="Residencial 03"></div>
+    <div class="grid-8 produto_info">
+      <p>Os produtos para o seu lar você encontar aqui. Sabonetes, shampoos, detergentes e muito mais. Temos produtos
+        dos mais variados tipos e fragrâncias, confira!</p>
+      <ul>
+        <li>Eficiente</li>
+        <li>Econômico</li>
+        <li>Fragrâncias</li>
+        <li>Agradável</li>
+      </ul>
+    </div>
+  </section>
+  <!-- AUTOMOTIVO -->
+  <section class="container produto_item">
+    <div class="grid-11">
+      <img src="img/produtos/produtos-automotivo1.jpg" alt="Automotivo 01">
+      <h2>Automotivo</h2>
+    </div>
+    <div class="grid-5"><img src="img/produtos/produtos-automotivo2.jpg" alt="Automotivo 02"></div>
+    <div class="grid-8"><img src="img/produtos/produtos-automotivo3.jpg" alt="Automotivo 03"></div>
+    <div class="grid-8 produto_info">
+      <p>Os nossos produtos automotivos são comprados pelas principais desenvolvedoras automobilísticas do mercado. Quem
+        é apaixonado por carros também ama os nossos produtos. O que você está esperando? Venha conferir.</p>
+      <ul>
+        <li>Duradouro</li>
+        <li>Econômico</li>
+        <li>variedade</li>
+        <li>Agradável</li>
+      </ul>
+    </div>
+  </section>
+  <!-- INDUSTRIAL -->
+  <section class="container produto_item">
+    <div class="grid-11">
+      <img src="img/produtos/produtos-industrial1.jpg" alt="Industrial 01">
+      <h2>Industrial</h2>
+    </div>
+    <div class="grid-5"><img src="img/produtos/produtos-industrial2.jpg" alt="Industrial 02"></div>
+    <div class="grid-8"><img src="img/produtos/produtos-industrial3.jpg" alt="Industrial 03"></div>
+    <div class="grid-8 produto_info">
+      <p>A petrobrás usei e abusou dos nossos produtos. "Não há concorrência quando o assunto é limpeza." - Disse o CEO
+        da petrobrás.</p>
+      <ul>
+        <li>Puro</li>
+        <li>Econômico</li>
+        <li>Diversidade</li>
+        <li>Agradável</li>
+      </ul>
+    </div>
+  </section>
+  <!-- ORÇAMENTO -->
+  <section class="orcamento">
+    <div class="container">
+      <h2 class="subtitulo">Orçamento</h2>
+      <form id="form_orcamento" action="enviar.php" method="POST" class="form grid-8">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" required>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" required>
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone" required>
+        <label for="espec">Especificações</label>
+        <textarea id="espec" cols="30" rows="10" required></textarea>
+        <button type="submit" value="submeter" class="btn-branco">Enviar</button>
+      </form>
+      <div class="orcamento_dados grid-8">
+        <h3>Dados</h3>
+        <span>+55 84 9999-8888</span>
+        <span class="dados_email">orçamento@chemcode.com.br</span>
+        <h3>Não encontrou algo?</h3>
+        <ul>
+          <li>- Produto Doméstico</li>
+          <li>- Produto Automotivo</li>
+          <li>- Produto Industrial</li>
+          <li>- Outro</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="grid-8 footer_contato">
+          <h3>Contato</h3>
+          <ul>
+            <li>- 84 9999-8888</li>
+            <li>- contato@chemcode.com.br</li>
+            <li>- Macaíba/RN</li>
+          </ul>
+        </div>
+        <div class="grid-8 footer_redes">
+          <h3>Redes Sociasis</h3>
+          <ul>
+            <li><a href="http://facebook.com" target="_blank"><img src="img/icones/facebook.png" alt="Facebook"></a>
+            </li>
+            <li><a href="http://instagram.com" target="_blank"><img src="img/icones/instagram.png" alt="Instagram"></a>
+            </li>
+            <li><a href="http://twitter.com" target="_blank"><img src="img/icones/twitter.png" alt="Twitter"></a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copy">
+      <div class="container">
+        <div class="grid-11">
+          <p>TADS - UFRN/EAJ - Todos os direitos reservados.</p>
+        </div>
+        <div class="grid-5">
+          <p>Developed by Andeson Lundberg de Holanda</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

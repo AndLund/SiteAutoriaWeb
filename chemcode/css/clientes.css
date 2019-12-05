@@ -1,0 +1,8 @@
+.interna_clientes {
+  background: url("../img/clientes/clientes-bg.jpg") no-repeat center;
+  background-size: cover;
+}
+
+a .dec {
+  text-decoration: none;
+}

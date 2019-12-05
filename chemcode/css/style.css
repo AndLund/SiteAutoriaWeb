@@ -1,0 +1,352 @@
+/* Geralzão */
+
+body {
+  font-family:  Arial, Helvetica, sans-serif;
+}
+
+p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.btn {
+  border: 3px solid #662694;
+  padding: 10px 30px;
+  color: #662694;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+
+.btn:hover {
+  color: palevioletred;
+  border-color: palevioletred;
+}
+
+.btn-branco {
+  border: 3px solid white;
+  padding: 10px 30px;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+
+.btn-branco:hover {
+  color: palevioletred;
+  border-color: palevioletred;
+}
+
+.subtitulo {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: .1em;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.subtitulo:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: black;
+  margin: 8px auto;
+}
+
+.subtitulo-interno {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: .1em;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subtitulo-interno:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: black;
+  margin: 8px 0;
+}
+/* Header */
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #662694;
+  padding: 15px 0;
+  z-index: 10;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.header_menu ul li a {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: palevioletred;
+}
+
+.header_menu ul li a.menu_ativo {
+  color: palevioletred;
+}
+/* Introdução */
+
+.introducao {
+  width:100%;
+  height: 380px;
+  background: url("../img/home/bg-intro.jpg") no-repeat center;
+  background-size: cover;
+  margin-top: 96px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.introducao h1 {
+  font-size: 48px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.frase {
+  margin: 0 auto 80px auto;
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+
+.frase:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 14px auto 20px auto;
+}
+
+/* Introdução Interna */
+
+.introducao-interna {
+  width: 100%;
+  height: 160px;
+  margin-top: 92px;
+  text-align: center;
+  color: white;
+  padding-top: 30px;
+}
+
+.introducao-interna h1 {
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.introducao-interna h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 6px auto 20px auto;
+}
+
+
+/* Home - Produtos */
+
+.produtos {
+  padding: 60px 0;
+}
+
+.produtos_lista li {
+  background: #9266B3;
+  text-align: center;
+}
+
+.produtos_lista li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-top: 20px;
+  color:white;
+}
+
+.produtos_lista li h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: white;
+  margin: 2px auto;
+}
+
+.produtos_lista li p{
+  padding: 10px 20px 20px 20px;
+  color:white;
+}
+
+.call {
+  padding-top: 40px;
+  text-align: center;
+  clear: both;
+}
+
+.call p{
+  margin-bottom: 40px;
+}
+
+/* Home - Sobre a empresa */
+
+.sobre {
+  width: 100%;
+  background: #662694;
+  padding: 40px 0;
+}
+
+.sobre .subtitulo {
+  color: white;
+}
+
+.sobre .subtitulo:after {
+  background: white;
+}
+
+.sobre .call p {
+  color: white;
+}
+
+.sobre_lista li:last-child {
+  margin-top: 20px;
+}
+
+/* Home - Apoiadores */
+
+.clientes {
+  padding: 60px 0;
+}
+
+.clientes_lista li {
+  text-align: justify;
+}
+
+.clientes_lista li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-top: 20px;
+}
+
+.clientes_lista li h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: black;
+  margin: 2px auto;
+}
+
+.clientes_lista li p{
+  padding: 20px 20px 20px 20px;
+}
+
+/* Home - Contato */
+
+.contato {
+  width:100%;
+  height: 220px;
+  background: url("../img/home/bg-footer.jpg") no-repeat center;
+  background-size: cover;
+  /* margin-top: 60px; */
+  padding-top: 80px;
+}
+
+.contato h1 {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  background: #B392C9;
+  color: #662694;
+  padding: 20px 0px;
+}
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+}
+
+.footer h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #662694;
+  margin: 6px 0px 12px 0px;
+}
+
+.footer_contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer_redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.copy {
+  width: 100%;
+  background-color: #662694;
+  color: white;
+  padding: 20px;
+}
